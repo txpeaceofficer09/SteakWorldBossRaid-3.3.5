@@ -1,0 +1,6 @@
+## Interface: 30300
+## Title: Steak World Boss Raid
+## Notes: Auto-form a raid at the WB when people say/yell inv and promote everyone to assist.
+## Author: Soonbesteak
+## Version: 1.0.0
+Core.lua
