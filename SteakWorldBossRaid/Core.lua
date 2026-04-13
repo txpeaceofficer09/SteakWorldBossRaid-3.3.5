@@ -8,6 +8,8 @@ local function OnEvent(self, event, ...)
 		local msg, sender = ...
 		msg = msg:lower()
 
+		if sender == UnitName("player") then return end
+
 		if msg:match("^inv") and GetNumRaidMembers() < 40 then
 			InviteUnit(sender)
 		end
